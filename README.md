@@ -60,7 +60,7 @@ Plug 'Droggelbecher/vim-pythonblocks'
 Set up some keybindings
 
 ```Vim script
-" Insert an empty ell marker (eg. #==) at current linke
+" Insert an empty cell marker (eg. #==) at current line
 map ,pm :PBAddCellMarker<CR>
 
 " Run current cell, all cells until cursor position or all cells
@@ -137,4 +137,3 @@ let g:pythonblocks#insert_stderr = 1
 " This gives some nice visual feedback on whats happening especially when executing multiple cells.
 let g:pythonblocks#visual_delay = '200m'
 ```
-
